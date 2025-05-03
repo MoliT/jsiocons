@@ -1,0 +1,6 @@
+#!/bin/bash
+JAVA_HOME=<java home>
+JAVA=${JAVA_HOME}/bin/java
+CLASSPATH=<install path>/jsiocons-1.0.0-jar-with-dependencies.jar
+
+$JAVA -Dfile.encoding=UTF-8 -classpath $CLASSPATH com.netyaroze.jsiocons.Siocons "$@"
